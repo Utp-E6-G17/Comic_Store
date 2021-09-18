@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<title>Comic Store</title>
+	</head>
+
+	<body>
+		<style>
+			* {
+				box-sizing: border-box;
+				font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+			}
+
+			body {
+				max-width: 1400px;
+				min-width: 375px;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 0;
+				margin-bottom: 0;
+				color: #222222;
+			}
+
+			.header-section {
+				margin-bottom: 100px;
+			}
+
+			.header-container {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				text-align: center;
+			}
+
+			.site-title {
+				padding: 10px 0px;
+				width: 30%;
+			}
+
+			.site-nav {
+				width: 40%;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+			}
+
+			.site-nav > a {
+				color: inherit;
+				text-decoration: none;
+			}
+
+			.site-nav > a:hover {
+				text-decoration: underline;
+				font-weight: bold;
+			}
+
+			.logo-container {
+				width: 30%;
+			}
+
+			.logo-container__site-logo {
+				height: 80px;
+			}
+
+			.banner {
+				width: 100%;
+			}
+
+			.banner > img {
+				width: 100%;
+				height: 400px;
+				max-width: 1400px;
+				object-fit: cover;
+			}
+
+			.services-section,
+			.seccion-noticias,
+			.seccion-equipo {
+				display: flex;
+				margin-bottom: 100px;
+			}
+
+			.seccion-noticias,
+			.header-container {
+				background-color: #f7f7f7;
+			}
+
+			.seccion-noticias {
+				flex-wrap: wrap;
+			}
+
+			.services-info {
+				padding: 20px;
+				text-align: center;
+			}
+
+			.news-info {
+				width: 50%;
+				padding: 20px;
+			}
+
+			.news-header {
+				display: flex;
+				justify-content: space-around;
+			}
+
+			.news-info__title {
+				align-self: center;
+			}
+
+			.seccion-pie {
+				background-color: #25294f;
+				height: 200px;
+				display: flex;
+				color: white;
+				justify-content: space-evenly;
+			}
+
+			.services-info__imagen {
+				border-radius: 50%;
+				margin-right: auto;
+				margin-left: auto;
+			}
+
+			.team-info {
+				width: 25%;
+				padding: 15px;
+			}
+
+			.team-info__imagen {
+				display: block;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			.fondo_rojo {
+				background-color: #e23636;
+			}
+			.link_navbar {
+				padding: 10px 20px;
+			}
+		</style>
+
+		<!-- inicio encabezado del sitio -->
+		<header class="fondo_rojo">
+			<div class="header-section fondo_rojo">
+				<div class="header-container fondo_rojo">
+					<div class="site-title fondo_rojo">
+						<h1>Comic Store</h1>
+					</div>
+
+					<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fondo_rojo">
+						<a class="navbar-brand" href="#">Navbar</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+					  
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						  <ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+							  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link" href="#">Link</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link disabled" href="#">Disabled</a>
+							</li>
+						  </ul>
+						</div>
+					  </nav> -->
+
+					<!-- Inicio menú navegación -->
+					<nav class="fondo_rojo">
+						<ul class="site-nav fondo_rojo">
+							<a class="link_navbar" href="#">Tienda</a>
+							<a class="link_navbar" href="#services">Servicios</a>
+							<a class="link_navbar" href="#news">Noticias</a>
+							<a class="link_navbar" href="#team">Nuestro equipo</a>
+						</ul>
+					</nav>
+
+					<!-- Fin menú navegación -->
+
+					<div class="logo-container fondo_rojo">
+						<img
+							class="logo-container__site-logo"
+							src="./TiendaComic.jpg"
+							alt="Logo MisionTic 2022"
+						/>
+					</div>
+				</div>
+
+				<div class="banner">
+					<img src="./banner_comic.jpg" alt="A banner image" />
+				</div>
+			</div>
+		</header>
+
+		
+</html>
